@@ -1,0 +1,113 @@
+body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(#471c3a, #054c76);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .game-container {
+      background: #0c192a;
+      border-radius: 20px;
+      padding: 30px 40px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      width: 90%;
+      max-width: 500px;
+    }
+    h1 {
+      margin-bottom: 15px;
+      color: #ffffff;
+    }
+    .players {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+    .player {
+      text-align: center;
+      flex: 1;
+      min-width: 150px;
+      margin: 10px;
+    }
+    .label {
+      background: #054c76;
+      color: #ffffff;
+      border-radius: 10px;
+      padding: 5px 15px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .wins {
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 20px;
+      color: #ffffff;
+    }
+    .score {
+      margin-top: 5px;
+      background: #852d43;
+      color: #ffffff;
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 28px;
+      font-weight: bold;
+      border: 2px solid #043f61;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    button {
+      background: #471c3a;
+      color: white;
+      font-size: 20px;
+      border: none;
+      border-radius: 12px;
+      padding: 10px 25px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 15px;
+    }
+    button:hover {
+      background: #5e254d;
+    }
+    button:disabled {
+      background: #333;
+      color: #666;
+      cursor: not-allowed;
+    }
+    #result {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+    .cards-container {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      margin: 10px 0;
+    }
+    .card {
+      width: 80px;
+      height: 120px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    .card img {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .round-info {
+      color: #ffffff;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
